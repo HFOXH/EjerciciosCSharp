@@ -1,0 +1,8 @@
+C:\Users\Santiago P\Documents\GitHub\Ejercicios\Ejercicios\bin\Debug\Ejercicios.exe.config
+C:\Users\Santiago P\Documents\GitHub\Ejercicios\Ejercicios\bin\Debug\Ejercicios.exe
+C:\Users\Santiago P\Documents\GitHub\Ejercicios\Ejercicios\bin\Debug\Ejercicios.pdb
+C:\Users\Santiago P\Documents\GitHub\Ejercicios\Ejercicios\obj\Debug\Ejercicios.csproj.AssemblyReference.cache
+C:\Users\Santiago P\Documents\GitHub\Ejercicios\Ejercicios\obj\Debug\Ejercicios.csproj.SuggestedBindingRedirects.cache
+C:\Users\Santiago P\Documents\GitHub\Ejercicios\Ejercicios\obj\Debug\Ejercicios.csproj.CoreCompileInputs.cache
+C:\Users\Santiago P\Documents\GitHub\Ejercicios\Ejercicios\obj\Debug\Ejercicios.exe
+C:\Users\Santiago P\Documents\GitHub\Ejercicios\Ejercicios\obj\Debug\Ejercicios.pdb
