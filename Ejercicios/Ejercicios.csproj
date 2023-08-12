@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContarPalabras.cs" />
+    <Compile Include="ConvertirRomanoAArabe.cs" />
     <Compile Include="Factorial.cs" />
+    <Compile Include="GenerarNumerosPrimos.cs" />
     <Compile Include="NumeroArmstrong.cs" />
     <Compile Include="NumeroPrimo.cs" />
     <Compile Include="Program.cs" />
