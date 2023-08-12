@@ -62,11 +62,16 @@ namespace Ejercicios
                 //Console.WriteLine($"Cantidad de letras: {cantidadLetras}");
 
                 // - - - - Ejercicio de Romano a Arabe
-                Console.WriteLine("Ingresa el numeor Romano: ");
-                string romano = Console.ReadLine();
-                int arabe = ConvertirRomanoAArabe.ConvertirRomanoArabe(romano);
-                Console.WriteLine($"El resultado de la conversión fue: {arabe}");
+                //Console.WriteLine("Ingresa el numeor Romano: ");
+                //string romano = Console.ReadLine();
+                //int arabe = ConvertirRomanoAArabe.ConvertirRomanoArabe(romano);
+                //Console.WriteLine($"El resultado de la conversión fue: {arabe}");
 
+                // - - - - Ejercicio de calculadora Basica
+                Console.WriteLine("- - - Calculadora Sencilla Menu - - -\n1. Suma\n2. Resta\n3. Multiplicar\n4. Dividir");
+                int opc = Convert.ToInt32(Console.ReadLine());
+                double resultado = CalculadoraBasica.Calcular(opc);
+                Console.WriteLine($"El resultado es: {resultado}");
                 // - - Finaliza el o repite la ejecucion
                 Console.WriteLine("¿Desea realizar otra operación? S/N");
                 rta = Console.ReadLine();
