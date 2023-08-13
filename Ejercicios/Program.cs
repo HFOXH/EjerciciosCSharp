@@ -68,10 +68,15 @@ namespace Ejercicios
                 //Console.WriteLine($"El resultado de la conversión fue: {arabe}");
 
                 // - - - - Ejercicio de calculadora Basica
-                Console.WriteLine("- - - Calculadora Sencilla Menu - - -\n1. Suma\n2. Resta\n3. Multiplicar\n4. Dividir");
-                int opc = Convert.ToInt32(Console.ReadLine());
-                double resultado = CalculadoraBasica.Calcular(opc);
-                Console.WriteLine($"El resultado es: {resultado}");
+                //Console.WriteLine("- - - Calculadora Sencilla Menu - - -\n1. Suma\n2. Resta\n3. Multiplicar\n4. Dividir");
+                //int opc = Convert.ToInt32(Console.ReadLine());
+                //double resultado = CalculadoraBasica.Calcular(opc);
+                //Console.WriteLine($"El resultado es: {resultado}");
+
+                // - - - - Ejercicio de validar contraseña
+                Console.WriteLine("Validar Contraseña\nEscribe la contrasena:");
+                string contrasena = Console.ReadLine();
+                bool answer = ValidacionContrasenia.ValidarContrasena(contrasena);
                 // - - Finaliza el o repite la ejecucion
                 Console.WriteLine("¿Desea realizar otra operación? S/N");
                 rta = Console.ReadLine();
