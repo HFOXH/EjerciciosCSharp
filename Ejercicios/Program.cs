@@ -74,9 +74,17 @@ namespace Ejercicios
                 //Console.WriteLine($"El resultado es: {resultado}");
 
                 // - - - - Ejercicio de validar contraseña
-                Console.WriteLine("Validar Contraseña\nEscribe la contrasena:");
-                string contrasena = Console.ReadLine();
-                bool answer = ValidacionContrasenia.ValidarContrasena(contrasena);
+                //Console.WriteLine("Validar Contraseña\nEscribe la contrasena:");
+                //string contrasena = Console.ReadLine();
+                //ValidacionContrasenia.ValidarContrasena(contrasena);
+
+                // - - - - Ejercicio de Fibonacci
+                Console.WriteLine("Ingrese la cantidad de números de la secuencia de Fibonacci que desea generar:");
+                int n = int.Parse(Console.ReadLine());
+                Console.WriteLine($"Los primeros {n} números de la secuencia de Fibonacci son:");
+                GenerarSecuenciaFibonacci.Fibonacci(n);
+
+                
                 // - - Finaliza el o repite la ejecucion
                 Console.WriteLine("¿Desea realizar otra operación? S/N");
                 rta = Console.ReadLine();
