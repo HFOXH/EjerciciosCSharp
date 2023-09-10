@@ -79,16 +79,52 @@ namespace Ejercicios
                 //ValidacionContrasenia.ValidarContrasena(contrasena);
 
                 // - - - - Ejercicio de Fibonacci
-                Console.WriteLine("Ingrese la cantidad de números de la secuencia de Fibonacci que desea generar:");
-                int n = int.Parse(Console.ReadLine());
-                Console.WriteLine($"Los primeros {n} números de la secuencia de Fibonacci son:");
-                GenerarSecuenciaFibonacci.Fibonacci(n);
+                //Console.WriteLine("Ingrese la cantidad de números de la secuencia de Fibonacci que desea generar:");
+                //int n = int.Parse(Console.ReadLine());
+                //Console.WriteLine($"Los primeros {n} números de la secuencia de Fibonacci son:");
+                //GenerarSecuenciaFibonacci.Fibonacci(n);
 
-                
+                // - - - - Ejercicio de Cesar
+                //Console.WriteLine("Ingrese un mensaje para encriptar:");
+                //string mensajeOriginal = Console.ReadLine();
+                //Console.WriteLine("Ingrese el número de desplazamiento:");
+                //int desplazamiento = int.Parse(Console.ReadLine());
+                //string mensajeCifrado = EncriptadoCesar.Cifrar(mensajeOriginal, desplazamiento);
+                //Console.WriteLine($"Mensaje Cifrado: {mensajeCifrado}");
+
+                // - - - - Ejercicio de Generador de contraseñas
+                //Console.WriteLine("---Generador de Contraseñas----\nIngresa la longitud:");
+                //int longitud = Convert.ToInt32(Console.ReadLine());
+                //GeneradorContrasena.GenerarContra(longitud);
+
+                // - - - - Ejercicio de suma de Diagonales y Diferencia
+                //Console.WriteLine("Ingresa el tamaño de la matriz");
+                //int tam = Convert.ToInt32(Console.ReadLine());
+                //int[,] matriz = new int[tam, tam];
+                //int numero;
+                //for (int i = 0; i < tam; i++) {
+                //    for (int j = 0; j < tam; j++)
+                //    {
+                //        Console.WriteLine($"Ingrese el elemento de la posicion [{i},{j}]: ");
+                //        numero = Convert.ToInt32(Console.ReadLine());
+                //        matriz[i, j] = numero;
+                //    }
+                //}
+
+                //int rDiagonalI = SumaDiagonalesYDiferencia.SumarDiagonalIzquierda(matriz,tam);
+                //int rDiagonalD = SumaDiagonalesYDiferencia.SumarDiagonalDerecha(matriz,tam);
+
+                //SumaDiagonalesYDiferencia.ImprimirMatriz(matriz, tam);
+                //Console.WriteLine($"El resultado de la Diagonal izquierda es: {rDiagonalI}\nEl resultado de la Diagonal derecha es: {rDiagonalD}\nDiferencia: {rDiagonalI-rDiagonalD}");
+
+                // - - - - Adivina el numero
+                Console.WriteLine("- - - Juevo de adivinar el número - - -\nIngresa el número:");
+                AdivinarNumero.adivinanza();
+
                 // - - Finaliza el o repite la ejecucion
                 Console.WriteLine("¿Desea realizar otra operación? S/N");
                 rta = Console.ReadLine();
-                if (rta == "S" || rta == "s") { continuidad = true; }
+                if (rta == "S" || rta == "s") { continuidad = true; Console.Clear(); }
                 else{ Console.WriteLine("Gracias por utilizar el programa\n¡Ten un gran dia! :D"); continuidad = false; }
             }Console.ReadKey();
         }

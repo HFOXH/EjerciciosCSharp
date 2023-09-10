@@ -43,16 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdivinarNumero.cs" />
     <Compile Include="CalculadoraBasica.cs" />
     <Compile Include="ContarPalabras.cs" />
     <Compile Include="ConvertirRomanoAArabe.cs" />
+    <Compile Include="EncriptadoCesar.cs" />
     <Compile Include="Factorial.cs" />
+    <Compile Include="GeneradorContrasena.cs" />
     <Compile Include="GenerarNumerosPrimos.cs" />
     <Compile Include="GenerarSecuenciaFibonacci.cs" />
     <Compile Include="NumeroArmstrong.cs" />
     <Compile Include="NumeroPrimo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SumaDiagonalesYDiferencia.cs" />
     <Compile Include="SumaMatrices.cs" />
     <Compile Include="ValidacionContrasenia.cs" />
   </ItemGroup>
