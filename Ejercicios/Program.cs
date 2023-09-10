@@ -118,8 +118,16 @@ namespace Ejercicios
                 //Console.WriteLine($"El resultado de la Diagonal izquierda es: {rDiagonalI}\nEl resultado de la Diagonal derecha es: {rDiagonalD}\nDiferencia: {rDiagonalI-rDiagonalD}");
 
                 // - - - - Adivina el numero
-                Console.WriteLine("- - - Juevo de adivinar el número - - -\nIngresa el número:");
-                AdivinarNumero.adivinanza();
+                //Console.WriteLine("- - - Juevo de adivinar el número - - -\nIngresa el número:");
+                //AdivinarNumero.adivinanza();
+
+                // - - - - Calcular la hipotenusa
+                Console.WriteLine("valor de cateto 1: ");
+                double c1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("valor de cateto 2: ");
+                double c2 = Convert.ToInt32(Console.ReadLine());
+                double resultado = Hipotenusa.CalcularHipotenusa(c1, c2);
+                Console.WriteLine("La hipotenusa es " + resultado);
 
                 // - - Finaliza el o repite la ejecucion
                 Console.WriteLine("¿Desea realizar otra operación? S/N");

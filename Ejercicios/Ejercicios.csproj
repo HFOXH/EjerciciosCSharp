@@ -52,6 +52,7 @@
     <Compile Include="GeneradorContrasena.cs" />
     <Compile Include="GenerarNumerosPrimos.cs" />
     <Compile Include="GenerarSecuenciaFibonacci.cs" />
+    <Compile Include="Hipotenusa.cs" />
     <Compile Include="NumeroArmstrong.cs" />
     <Compile Include="NumeroPrimo.cs" />
     <Compile Include="Program.cs" />
