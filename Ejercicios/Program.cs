@@ -122,12 +122,19 @@ namespace Ejercicios
                 //AdivinarNumero.adivinanza();
 
                 // - - - - Calcular la hipotenusa
-                Console.WriteLine("valor de cateto 1: ");
-                double c1 = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("valor de cateto 2: ");
-                double c2 = Convert.ToInt32(Console.ReadLine());
-                double resultado = Hipotenusa.CalcularHipotenusa(c1, c2);
-                Console.WriteLine("La hipotenusa es " + resultado);
+                //Console.WriteLine("valor de cateto 1: ");
+                //double c1 = Convert.ToInt32(Console.ReadLine());
+                //Console.WriteLine("valor de cateto 2: ");
+                //double c2 = Convert.ToInt32(Console.ReadLine());
+                //double resultado = Hipotenusa.CalcularHipotenusa(c1, c2);
+                //Console.WriteLine("La hipotenusa es " + resultado);
+
+                // - - - - Conversion de moneda <--- sencilla
+                Console.WriteLine("Ingresa el monto a convertir:");
+                double monto = Convert.ToDouble(Console.ReadLine());
+                ConversionMoneda.Convertir(monto);
+
+                // - - - - Conversion de moneda <--- dinamica >:D
 
                 // - - Finaliza el o repite la ejecucion
                 Console.WriteLine("¿Desea realizar otra operación? S/N");

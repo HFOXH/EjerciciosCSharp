@@ -46,6 +46,7 @@
     <Compile Include="AdivinarNumero.cs" />
     <Compile Include="CalculadoraBasica.cs" />
     <Compile Include="ContarPalabras.cs" />
+    <Compile Include="ConversionMoneda.cs" />
     <Compile Include="ConvertirRomanoAArabe.cs" />
     <Compile Include="EncriptadoCesar.cs" />
     <Compile Include="Factorial.cs" />
