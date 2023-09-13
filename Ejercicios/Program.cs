@@ -130,11 +130,14 @@ namespace Ejercicios
                 //Console.WriteLine("La hipotenusa es " + resultado);
 
                 // - - - - Conversion de moneda <--- sencilla
-                Console.WriteLine("Ingresa el monto a convertir:");
-                double monto = Convert.ToDouble(Console.ReadLine());
-                ConversionMoneda.Convertir(monto);
+                //Console.WriteLine("Ingresa el monto a convertir:");
+                //double monto = Convert.ToDouble(Console.ReadLine());
+                //ConversionMoneda.Convertir(monto);
 
                 // - - - - Conversion de moneda <--- dinamica >:D
+                Console.WriteLine("Ingresa el monto a convertir:");
+                double monto = Convert.ToDouble(Console.ReadLine());
+                ConversionMonedaDinamica.Convertir(monto);
 
                 // - - Finaliza el o repite la ejecucion
                 Console.WriteLine("¿Desea realizar otra operación? S/N");
